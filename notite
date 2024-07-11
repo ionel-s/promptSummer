@@ -1,0 +1,17 @@
+os.environ["AZURE_OPENAI_API_KEY"] = "3daec1aa43be4877a32904d9487f95f7"
+os.environ["AZURE_OPENAI_ENDPOINT"] = "https://agilefreaks-openai-sweeden.openai.azure.com"
+os.environ["AZURE_OPENAI_API_VERSION"] = "2023-03-15-preview"
+os.environ["AZURE_OPENAI_CHAT_DEPLOYMENT_NAME"] = "gpt-35-turbo"
+
+
+user_input = """
+Generate a detailed report on the impacts of climate change in East Europe from 2000 to 2020. 
+This report is for the Climate Fresk initiative to educate the public on the specific effects of climate change. 
+The report should highlight the environmental, economic, and social impacts. 
+Using data from recent scientific studies and reports, do not include any data that does not exist. 
+Refer to the structure of the IPCC special report on oceans and cryosphere as a guide. 
+You should act as an expert in climate change, a researcher, and a scientist. 
+The output should be a written report with sections including introduction, impact analysis, 
+case studies, and conclusion, include bullet points, make sure that the result is outputed in Markdown. 
+Use a formal yet engaging tone to ensure clarity and maintain the reader's interest.
+"""
